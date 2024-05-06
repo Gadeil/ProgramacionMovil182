@@ -1,0 +1,21 @@
+# JavaScrip
+
+## Teoria
+
+### ¿Que es JavaScrip?
+
+Es un lenguaje de programacion el cual una de sus funciones es el desarrollo web, frontend, backend, fullStack, desarrollador mobile
+
+## Frameworks con JS
+
+- Vue
+- Angular
+- React
+
+## Refactorizar
+
+Cambiar la estructura interna sin alterar el comportamiento externo 
+
+## Variable
+
+Es una caja que contiene informacion a la cual se va a poder referenciar en un futuro
