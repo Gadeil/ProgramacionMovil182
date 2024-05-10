@@ -1,0 +1,31 @@
+## TIPOS DE DATOS 
+
+-- PRIMITIVOS 
+
+  --number
+  --string
+  --boolean
+  --null
+
+-- REFERENCIA
+
+ --array
+ --object
+ --funciones
+ --clases
+
+
+
+## TIPOS DE LENGUAJE DE PROGRAMACION
+
+-- TIPADO ESTATICO 
+  
+  string nombre = "hola";
+         nombre = 42;    ## no se va apermitir hacerlo
+  
+
+-- TIPADO DINAMICO 
+  
+
+  nombre = "hola";
+  nombre = 42;   
