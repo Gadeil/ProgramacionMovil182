@@ -19,3 +19,5 @@ Cambiar la estructura interna sin alterar el comportamiento externo
 ## Variable
 
 Es una caja que contiene informacion a la cual se va a poder referenciar en un futuro
+
+- let para crear variables 
