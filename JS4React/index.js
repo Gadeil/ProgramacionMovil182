@@ -46,7 +46,7 @@
 
 // Trabajo con DOM
 
-const titulo = document.createElement('h1')
+/*const titulo = document.createElement('h1')
 titulo.innerText= 'soy un titulo creado con 35'
 document.body.append(titulo)
 
@@ -58,4 +58,52 @@ boton.addEventListener('cli',function(){
     //console.log('evento click ejecutando')
     titulo.innerText= 'evento click ejecutando'
     alert('exito')
+}) */
+
+/*const nombres= ['alan','isa','pablo']
+
+for (let i= 0; i< nombres.length; i++){
+    const elemento = nombres[i]
+    console.log(elemetos)
+
+
+}
+
+nombres.forEach(funtion(nombre){
+    console.log(nombre)
+
+})*/
+
+/*const array2= nombres.map(funtion(nombre){
+    console.log(nombre)
+    return nombre
 })
+
+console.log(nombres)
+console.log(array2)*/
+
+
+// Funcion find: ubicar elementos en el arreglo 
+
+/* const resultado = nombres.find(function(nombre){
+    if (nombre === 'pablo')
+        return nombre
+})
+
+console.log(resultado) */
+
+// Funcion concat
+
+/*const edades = [78,89,12,8,10,15]
+console.log(nombres.concat(edades))
+
+// Spread Operator 
+console.log([...nombres,...edades])*/
+
+// Modulos : import & export 
+
+//import {suma,resta} from "./calculadora"
+import * as calc from "./calculadora"
+
+confirm.log(suma (45,54))
+confirm.log(resta (45,5))
