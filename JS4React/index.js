@@ -102,8 +102,54 @@ console.log([...nombres,...edades])*/
 
 // Modulos : import & export 
 
-//import {suma,resta} from "./calculadora"
+/*import {suma,resta} from "./calculadora"
 import * as calc from "./calculadora"
 
 confirm.log(suma (45,54))
 confirm.log(resta (45,5))
+
+*/
+
+// Ejemplo de promesa
+/*
+const ul = document.createElement('ul')
+
+ fetch('https://jsonplaceholder.typicode.com/posts')
+            .then (function (responde){
+                console.log("carga de datos completa")
+                return responde.json()
+            }).then(function (data){
+                console.log(data)  
+                data.forEach(function(post){
+                    const li = document.createElement('li')
+                    li.innerHTML= post.title
+                    ul.append(li)
+                }) 
+                document.body.append(ul)          
+            })
+
+console.log("cargando Html")
+console.log("cargando CSS")
+console.log("cargando Imagenes")
+
+*/
+
+//Ejemplo de Async Await 
+
+async function cargarDatos(){
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+    const datos = await response.json()
+    console.log(datos)
+    datos.forEach(function(post){
+        const li = document.createElement('li')
+        li.innerHTML= post.title
+        ul.append(li)
+    }) 
+    document.body.append(ul)  
+}
+
+cargarDatos()
+console.log("cargando Html")
+console.log("cargando CSS")
+console.log("cargando Imagenes")
+
