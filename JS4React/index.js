@@ -136,6 +136,7 @@ console.log("cargando Imagenes")
 
 //Ejemplo de Async Await 
 
+/*
 async function cargarDatos(){
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const datos = await response.json()
@@ -152,4 +153,13 @@ cargarDatos()
 console.log("cargando Html")
 console.log("cargando CSS")
 console.log("cargando Imagenes")
+*/
+
+
+
+
+
+
+
+
 
